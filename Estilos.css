@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #222;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.navbar nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #444;
+    font-size: 15px;
+}
+
+.navbar nav a:hover {
+    color: #000;
+}
+
+/*HERO SECTION */
+.hero {
+    height: 500px;
+    background-image: url('practicoimagen.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: 10px solid white;
+}
+
+.hero-text {
+    max-width: 450px;
+    color: white;
+    text-shadow: 0px 2px 6px rgba(0,0,0,0.7);
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.hero-text button {
+    background:white;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-text button:hover {
+    background: #ddd;
+
+} 
+
+.form-container {
+    background: #0B1E2D; 
+    padding: 40px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.form-wrapper {
+    border: 2px solid white; 
+    padding: 20px;           
+    margin: 20px;            
+}
+
+.form-container h2 {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;  
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #ffffff; 
+    color: white;
+    font-size: 14px;
+    border-radius: 0; 
+}
+
+.checkbox-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.checkbox-row input {
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    accent-color: #C0663B; 
+}
+
+/* Botón alineado a la derecha */
+.btn-right {
+    width: 100%;
+    text-align: right;
+}
+
+.btn-enviar {
+    background: #C0663B;
+    border: none;
+    padding: 10px 32px;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background: #a8532f;
+}
+body {
+    border: 10px solid white; 
+    margin: 0;
+    padding: 0;
+}
+
+
+
